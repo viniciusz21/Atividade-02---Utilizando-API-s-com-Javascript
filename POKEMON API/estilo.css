@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-image: url(imagens/wp3170170-pokemon-pokedex-background.jpg); /* Altere para a imagem desejada */
+    background-color: #121212; /* Fundo escuro como fallback */
+    background-size: cover; /* Ajusta a imagem ao tamanho do body */
+    background-position: center; /* Centraliza a imagem */
+}
+
+main {
+    width: 940px;
+    height: 690px;
+    display: grid;
+    grid-template-columns: 0fr 4fr;
+    gap: 30px;
+    padding: 10px;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(30, 30, 30, 0.8); /* Fundo mais suave com transparência */
+    border: 2px solid #FFD700; /* Borda dourada suave */
+}
+
+article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 940px;
+    height: 690px;
+    background-image: url(imagens/wp8813120-pokedex-wallpapers.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra sutil */
+}
+
+section {
+    width: 570px;
+    height: 475px;
+    margin: 20px;
+    background-image: url(imagens/Sem\ título.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+p {
+    color: #000000; /* Texto branco */
+    font-weight: bold;
+    font-size: 16pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra leve no texto */
+}
+
+#pokemon-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px; /* Bordas arredondadas na imagem */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Sombra sutil na imagem */
+}
